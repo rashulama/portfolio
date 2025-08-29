@@ -13,51 +13,53 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <!-- portfolio -->
   
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <title>Bootstrap - Web Development Portfolio</title>
   </head>
 <body>
 <!-- Skip to main content link for accessibility -->
 <a href="#main-content" class="skip-link">Skip to main content</a>
-
 <!-- navbar start -->
- <nav class="navbar navbar-expand-lg fixed-top navbar-dark fs-4" style="background-color: transparent" role="navigation" aria-label="Main navigation">
-   <div class="container-fluid">
-     <a class="navbar-brand fs-4 fw-bold" href="index.html" aria-label="Portfolio Home">
-      <img src="logos.svg" alt="Portfolio Logo" width="60px" class="rounded-3" style="margin-left: 10%;"></a>
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
-       <span class="navbar-toggler-icon" aria-hidden="true"></span>
-     </button>
-     <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
-       <ul class="navbar-nav mb-2 me-auto mb-lg-0" role="menubar">
-         <li class="nav-item " role="none">
-           <a class="nav-link " aria-current="page" href="index.html" role="menuitem" tabindex="0" style="font-size: 18px;">Home</a>
-         </li>
-         <li class="nav-item" role="none">
-           <a class="nav-link" href="fullstack.html" role="menuitem" tabindex="0" style="font-size: 18px;">Full Stack</a>
-         </li>
-         <li class="nav-item" role="none">
-           <a class="nav-link" href="html.html" role="menuitem" tabindex="0" style="font-size: 18px;">HTML</a>
-         </li>
-          <li class="nav-item" role="none">
-           <a class="nav-link" href="css.html" role="menuitem" tabindex="0" style="font-size: 18px;">CSS</a>
-         </li>
-         <li class="nav-item" role="none">
-           <a class="nav-link active" href="bs.html" role="menuitem" tabindex="0" style="font-size: 18px;">Bootstrap</a>
-         </li>
-          <li class="nav-item" role="none">
-           <a class="nav-link" href="js.html" role="menuitem" tabindex="0" style="font-size: 18px;">JavaScript</a>
-         </li>
-       </ul>
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark" role="navigation" aria-label="Main navigation">
+  <div class="container-fluid">
+    <!-- Logo (left side) -->
+    <a class="navbar-brand fs-4 fw-bold" href="index.html" aria-label="Portfolio Home">
+      <img src="logos.svg" alt="Portfolio Logo" width="60px" class="rounded-3" style="margin-left: 10%;">
+    </a>
 
-       <div class="d-flex" role="group" aria-label="Authentication buttons">
-          <a class="btn btn-outline-info text-white me-2" href="#" role="button" tabindex="0">Log in</a>
-          <a class="btn btn-outline-info text-white" href="#" role="button" tabindex="0">Register</a>
-      </div>
-     </div>
-      
-   </div>
- </nav>
+    <!-- Toggle Button for Mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 me-5" role="menubar">
+        <li class="nav-item" role="none">
+          <a class="nav-link nav-text" aria-current="page" href="index.html" role="menuitem" tabindex="0">Home</a>
+        </li>
+        <li class="nav-item" role="none">
+          <a class="nav-link nav-text" href="fullstack.html" role="menuitem" tabindex="0">Full Stack</a>
+        </li>
+        <li class="nav-item" role="none">
+          <a class="nav-link nav-text" href="html.html" role="menuitem" tabindex="0">HTML</a>
+        </li>
+        <li class="nav-item" role="none">
+          <a class="nav-link nav-text" href="css.html" role="menuitem" tabindex="0">CSS</a>
+        </li>
+        <li class="nav-item" role="none">
+          <a class="nav-link nav-text" href="bs.html" role="menuitem" tabindex="0">Bootstrap</a>
+        </li>
+        <li class="nav-item" role="none">
+          <a class="nav-link nav-text" href="js.html" role="menuitem" tabindex="0">JavaScript</a>
+        </li>
+      </ul>
+    </div>
+              <a href="E-portfolio.html" class="btn btn-primary" style="margin-right: 20px; ;">E-portfolio Document</a>
+
+  </div>
+</nav>
 <!-- navbar end -->
 
 <!-- hero section start -->
@@ -103,7 +105,11 @@
       <div class="col-lg-6">
         <h3 class="h4 mb-3">What is Bootstrap?</h3>
         <p class="lead">
-          Bootstrap is a free, open-source CSS framework that provides pre-built components and utilities for creating responsive, mobile-first websites quickly and easily.
+            Bootstrap is a popular framework of front-end which is used to design responsive website. It makes website efficiently viewed in mobile device. 
+            It has a collection of predefined components made of HTML, CSS and JS and directly design components like button, form, navigation bar, etc. It 
+            saves time of developer because removing need to write repetitive CSS and help to maintain the content responsive across pages.
+            Bootstrap follow the rule of 12-column responsive grid system, which makes easy for developer to understand and design the layout based on size 
+            of screen (mobile to desktop). It is open source and updated regularly.  Using it developer can design and develop a website using few lines of code.
         </p>
         <ul class="list-unstyled">
           <li><i class="fas fa-check text-success me-2"></i>Responsive grid system</li>
@@ -254,51 +260,21 @@
         </ul>
       </div>
     </div>
+    <i class="fas fa-star me-3"></i> <br>
+            <h2>Example of My code:</h2>
+        <img src="Images/Bootstrap_code1.png" style="width: 100%;" alt=""><br><p></p><br>
+        <img src="Images/Bootstrap_Code2.png" style="width: 100%;" alt="">
+
+        <br><p></p><h2>Output Screen:</h2>
+            <img src="Images/Bootstrap_OP1.png" style="width: 100%;" alt="">
   </div>
 </div>
 <!-- content end -->
 </main>
 
+
 <!-- Footer -->
-<footer class="page-footer font-small indigo">
-  <!-- Footer Links -->
-  <div class="container-fluid text-light">
-    <!-- Grid row-->
-    <div class="top row text-center d-flex justify-content-center pt-5 mb-3">
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="index.html">Home</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="fullstack.html">Fullstack</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="css.html">CSS</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="bs.html">Bootstrap</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="js.html">Javascript</a>
-        </h6>
-      </div>
+
       <!-- Grid column -->
     </div>
     <!-- Grid row-->
@@ -311,37 +287,30 @@
         <div class="f-icon col-md-12">
           <div class="icon mb-5 text-center">
           <!-- Facebook -->
-          <a class="fb-ic" href="#">
-            <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
-          </a>
+          <a class="gh-ic" href="https://github.com/rashulama" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github fa-lg white-text mr-4"></i>
+            </a>
           <!----Whatsapp-->
-          <a class="wha-ic" href="https://wa.me/9779829468218">
+          <a class="wha-ic" href="https://wa.me/9809100000">
             <i class="fab fa-whatsapp fa-lg white-text mr-4"> </i>
           </a>
           <!--Linkedin -->
           <a class="li-ic" href="#">
             <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
           </a>
-         
+        <div><center>
+          <p><pre style="font-weight: 1000; color: beige;">
+All & copyright reserved @2025
+<span >Powered By: Rashu Lama</span>
+          </p></pre>
+          </center>
+      </div>
+      </div>
+        </div>
         <!-- Grid column -->
       </div>
       <!-- Grid column -->
-      <div>
-        <p>
-          All & copy;right reserved @2025
-        </p>
-      </div>
-      <!-- Grid column -->
-    </div>
-    <!-- Grid row-->
-    <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
-  </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-dark py-3" style="text-align: center;">
-    Powered By: <span style="font-weight: 600;">Rashu Lama</span>
-  </div>
+      
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
